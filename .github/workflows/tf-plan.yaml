@@ -1,9 +1,9 @@
-name: Terraform Apply
+name: Terraform Plan
 
 on: [push]
 
 jobs:
-  terraform_apply:
+  terraform_plan:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
